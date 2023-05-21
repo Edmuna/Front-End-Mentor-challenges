@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap" rel="stylesheet">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: lightblue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      font-family: 'Roboto Serif', sans-serif;
+    }
+
+    .box {
+      border: 5px solid white;
+      width: 210px;
+      height: 350px;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: white;
+    }
+
+    .image-one {
+      width: 100%;
+      height: 90%;
+      border-radius: 15px;
+      object-fit: cover;
+      padding: 5px;
+    }
+
+    .box p {
+      margin: 5px;
+      padding: 0 10px;
+    }
+
+    .p1 {
+      font-size: 12px;
+      font-weight: bold;
+      color: darkblue;
+      text-align: center;
+    }
+
+    .p2 {
+      font-size: 10px;
+      color: gray;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <img class="image-one" src="./images/image-qr-code.png" alt="qr-code">
+    <p class="p1">Improve your front-end skills by building projects.</p>
+    <p class="p2">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.</p>
+  </div>
+</body>
+</html>
